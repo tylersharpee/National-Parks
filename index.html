@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Search for National Parks by State</h1>
+  </header>
+  <main>
+    <form>
+      <label for='state-input'>State to Search:</label>
+      <select name='state-input' id='state-input'>
+      </select>
+      <label for='limit-input'>Results</label>
+      <select name='limit-input' id='limit-input'>
+      </select>
+      <button id='state-button'>Search</button>
+    </form>
+    <ul id='results'>
+    </ul>
+  </main>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script src='./store.js'></script>
+  <script src='./api.js'></script>
+  <script src='./index.js'></script>
+</body>
+</html>
